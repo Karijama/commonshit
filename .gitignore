@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+results/
+results_diverse/
+runs/
+prepared_*/
+*.gguf
+*.safetensors
+*.pt
+*.pth
