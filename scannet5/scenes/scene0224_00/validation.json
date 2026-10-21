@@ -1,0 +1,61 @@
+{
+  "scene_id": "scene0224_00",
+  "frame_count": 300,
+  "rgb_shapes": [
+    [
+      968,
+      1296,
+      3
+    ]
+  ],
+  "depth_shapes": [
+    [
+      480,
+      640
+    ]
+  ],
+  "intrinsic": [
+    [
+      1170.187988,
+      0.0,
+      647.75,
+      0.0
+    ],
+    [
+      0.0,
+      1170.187988,
+      483.75,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "point_count": 75941,
+  "point_source_bytes": 1822584,
+  "cad_instances": 5,
+  "unique_cads": 5,
+  "invalid_pose_count": 0,
+  "invalid_poses": [],
+  "depth_raw_nonzero_range": [
+    311,
+    9424
+  ],
+  "all_901_posed_images_files_copied_byte_identically": true,
+  "point_bin_copied_byte_identically": true,
+  "all_frames_decoded": true,
+  "derived_cloud_matches_every_source_point_in_original_order": true,
+  "gt_max_independent_matrix_error": 4.440892098500626e-16,
+  "all_gt_vertices_checked_in_annotation_world": true,
+  "cad_appearances_match_original": true,
+  "no_sens_data_used": true
+}
