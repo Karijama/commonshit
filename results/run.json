@@ -1,0 +1,49 @@
+{
+  "configuration": {
+    "root": "scannet5",
+    "output": "results",
+    "scenes": [
+      "scene0084_01"
+    ],
+    "views": 3,
+    "score": "approx_unoccluded_vertices",
+    "cell": 4,
+    "scan_radius": 1,
+    "tolerance": 0.1,
+    "min_angle": 15.0
+  },
+  "results": [
+    {
+      "scene": "scene0084_01",
+      "instances": [
+        {
+          "instance_id": 0,
+          "vertices": 484,
+          "frames": [
+            "00054",
+            "00036",
+            "00298"
+          ]
+        },
+        {
+          "instance_id": 1,
+          "vertices": 672,
+          "frames": [
+            "00091",
+            "00055",
+            "00298"
+          ]
+        },
+        {
+          "instance_id": 2,
+          "vertices": 9742,
+          "frames": [
+            "00250",
+            "00232",
+            "00214"
+          ]
+        }
+      ]
+    }
+  ]
+}

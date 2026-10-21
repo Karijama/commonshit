@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "translation": [
+    5.689,
+    0.624,
+    1.357
+  ],
+  "rotation_wxyz": [
+    0.9944,
+    0.0616,
+    -0.0858,
+    0.008
+  ],
+  "scale_xyz": [
+    0.23,
+    0.32,
+    0.45
+  ],
+  "confidence": 0.95,
+  "explanation": "The object is a toilet, which appears in all three scene images (1, 2, and 3). The CAD model in image 0 represents the same type of object. By matching the visual features of the toilet across the scene views to the canonical CAD views, we can estimate its pose. The camera-to-world transforms provided for each view allow us to compute the world coordinates of the toilet's center and orientation. The scale factors are estimated based on the typical size of a toilet relative to the CAD model's dimensions."
+}

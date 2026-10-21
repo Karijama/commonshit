@@ -1,0 +1,14 @@
+{
+  "translation_error_m": 1.9527068027809604,
+  "rotation_error_degrees_raw": 179.30841659275927,
+  "symmetry": "__SYM_NONE",
+  "rotation_warning": "Raw rotation is not symmetry invariant",
+  "scale_relative_error_xyz": [
+    0.8418750958618169,
+    0.7823217283260216,
+    0.6311235483780011
+  ],
+  "mean_corresponding_vertex_error_m": 1.9726538133948757,
+  "mean_predicted_to_gt_nearest_vertex_error_m": 1.5463192626064672,
+  "evaluated_vertex_count": 9742
+}

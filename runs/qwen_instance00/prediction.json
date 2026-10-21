@@ -1,0 +1,8 @@
+{
+  "status": "not_visible",
+  "translation": null,
+  "rotation_wxyz": null,
+  "scale_xyz": null,
+  "confidence": 0.0,
+  "explanation": "The object shown in the CAD model (image 0) is a cylindrical mechanical part with internal features and external mounting points. In all three scene images (images 1, 2, and 3), the only visible cylindrical object is the pedestal supporting the bathroom sink. This pedestal is structurally different from the CAD model: it lacks the complex internal geometry, mounting holes, or external protrusions seen in the CAD design. The visual appearance of the pedestal does not match the CAD model, indicating that the target object is not present in the scene."
+}
