@@ -1,0 +1,344 @@
+{
+  "schema_version": 1,
+  "source": "posed_images + points",
+  "created_at": "2026-10-19T18:30:02.021094+03:00",
+  "totals": {
+    "scenes": 5,
+    "rgbd_pairs": 1500,
+    "points": 717224,
+    "cad_instances": 47,
+    "unique_cad_assets": 37,
+    "invalid_camera_poses": 4
+  },
+  "coordinate_system": "original ScanNet world, metres; no axisAlignment applied",
+  "frames_reindexed": false,
+  "rgbd_transcoded": false,
+  "pointcloud_reconstructed_or_downsampled": false,
+  "source_camera_intrinsics": "Only original posed_images/<scene>/intrinsic.txt is supplied; no native depth K or extrinsics are present in posed_images.",
+  "timestamps": "not supplied by posed_images; no timestamps inferred",
+  "scenes": [
+    {
+      "scene_id": "scene0472_01",
+      "frame_count": 300,
+      "rgb_shapes": [
+        [
+          968,
+          1296,
+          3
+        ]
+      ],
+      "depth_shapes": [
+        [
+          480,
+          640
+        ]
+      ],
+      "intrinsic": [
+        [
+          1165.656006,
+          0.0,
+          653.70105,
+          0.0
+        ],
+        [
+          0.0,
+          1165.332031,
+          479.037018,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "point_count": 199785,
+      "point_source_bytes": 4794840,
+      "cad_instances": 12,
+      "unique_cads": 10,
+      "invalid_pose_count": 1,
+      "invalid_poses": [
+        {
+          "frame_id": "00101",
+          "reason": "nonfinite_source_pose"
+        }
+      ],
+      "depth_raw_nonzero_range": [
+        360,
+        7731
+      ],
+      "all_901_posed_images_files_copied_byte_identically": true,
+      "point_bin_copied_byte_identically": true,
+      "all_frames_decoded": true,
+      "derived_cloud_matches_every_source_point_in_original_order": true,
+      "gt_max_independent_matrix_error": 8.881784197001252e-16,
+      "all_gt_vertices_checked_in_annotation_world": true,
+      "cad_appearances_match_original": true,
+      "no_sens_data_used": true
+    },
+    {
+      "scene_id": "scene0224_00",
+      "frame_count": 300,
+      "rgb_shapes": [
+        [
+          968,
+          1296,
+          3
+        ]
+      ],
+      "depth_shapes": [
+        [
+          480,
+          640
+        ]
+      ],
+      "intrinsic": [
+        [
+          1170.187988,
+          0.0,
+          647.75,
+          0.0
+        ],
+        [
+          0.0,
+          1170.187988,
+          483.75,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "point_count": 75941,
+      "point_source_bytes": 1822584,
+      "cad_instances": 5,
+      "unique_cads": 5,
+      "invalid_pose_count": 0,
+      "invalid_poses": [],
+      "depth_raw_nonzero_range": [
+        311,
+        9424
+      ],
+      "all_901_posed_images_files_copied_byte_identically": true,
+      "point_bin_copied_byte_identically": true,
+      "all_frames_decoded": true,
+      "derived_cloud_matches_every_source_point_in_original_order": true,
+      "gt_max_independent_matrix_error": 4.440892098500626e-16,
+      "all_gt_vertices_checked_in_annotation_world": true,
+      "cad_appearances_match_original": true,
+      "no_sens_data_used": true
+    },
+    {
+      "scene_id": "scene0499_00",
+      "frame_count": 300,
+      "rgb_shapes": [
+        [
+          968,
+          1296,
+          3
+        ]
+      ],
+      "depth_shapes": [
+        [
+          480,
+          640
+        ]
+      ],
+      "intrinsic": [
+        [
+          1161.745972,
+          0.0,
+          658.041992,
+          0.0
+        ],
+        [
+          0.0,
+          1159.107056,
+          486.467102,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "point_count": 97088,
+      "point_source_bytes": 2330112,
+      "cad_instances": 15,
+      "unique_cads": 10,
+      "invalid_pose_count": 3,
+      "invalid_poses": [
+        {
+          "frame_id": "00270",
+          "reason": "nonfinite_source_pose"
+        },
+        {
+          "frame_id": "00271",
+          "reason": "nonfinite_source_pose"
+        },
+        {
+          "frame_id": "00272",
+          "reason": "nonfinite_source_pose"
+        }
+      ],
+      "depth_raw_nonzero_range": [
+        334,
+        7825
+      ],
+      "all_901_posed_images_files_copied_byte_identically": true,
+      "point_bin_copied_byte_identically": true,
+      "all_frames_decoded": true,
+      "derived_cloud_matches_every_source_point_in_original_order": true,
+      "gt_max_independent_matrix_error": 6.661338147750939e-16,
+      "all_gt_vertices_checked_in_annotation_world": true,
+      "cad_appearances_match_original": true,
+      "no_sens_data_used": true
+    },
+    {
+      "scene_id": "scene0568_02",
+      "frame_count": 300,
+      "rgb_shapes": [
+        [
+          968,
+          1296,
+          3
+        ]
+      ],
+      "depth_shapes": [
+        [
+          480,
+          640
+        ]
+      ],
+      "intrinsic": [
+        [
+          1169.621094,
+          0.0,
+          646.295044,
+          0.0
+        ],
+        [
+          0.0,
+          1167.105103,
+          489.927032,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "point_count": 232577,
+      "point_source_bytes": 5581848,
+      "cad_instances": 12,
+      "unique_cads": 10,
+      "invalid_pose_count": 0,
+      "invalid_poses": [],
+      "depth_raw_nonzero_range": [
+        290,
+        4997
+      ],
+      "all_901_posed_images_files_copied_byte_identically": true,
+      "point_bin_copied_byte_identically": true,
+      "all_frames_decoded": true,
+      "derived_cloud_matches_every_source_point_in_original_order": true,
+      "gt_max_independent_matrix_error": 6.661338147750939e-16,
+      "all_gt_vertices_checked_in_annotation_world": true,
+      "cad_appearances_match_original": true,
+      "no_sens_data_used": true
+    },
+    {
+      "scene_id": "scene0084_01",
+      "frame_count": 300,
+      "rgb_shapes": [
+        [
+          968,
+          1296,
+          3
+        ]
+      ],
+      "depth_shapes": [
+        [
+          480,
+          640
+        ]
+      ],
+      "intrinsic": [
+        [
+          1169.621094,
+          0.0,
+          646.295044,
+          0.0
+        ],
+        [
+          0.0,
+          1167.105103,
+          489.927032,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "point_count": 111833,
+      "point_source_bytes": 2683992,
+      "cad_instances": 3,
+      "unique_cads": 3,
+      "invalid_pose_count": 0,
+      "invalid_poses": [],
+      "depth_raw_nonzero_range": [
+        329,
+        4650
+      ],
+      "all_901_posed_images_files_copied_byte_identically": true,
+      "point_bin_copied_byte_identically": true,
+      "all_frames_decoded": true,
+      "derived_cloud_matches_every_source_point_in_original_order": true,
+      "gt_max_independent_matrix_error": 2.220446049250313e-16,
+      "all_gt_vertices_checked_in_annotation_world": true,
+      "cad_appearances_match_original": true,
+      "no_sens_data_used": true
+    }
+  ]
+}

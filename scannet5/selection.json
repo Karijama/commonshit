@@ -1,0 +1,26 @@
+{
+  "created_at": "2026-10-19T18:30:02.021094+03:00",
+  "selected_scenes": [
+    "scene0472_01",
+    "scene0224_00",
+    "scene0499_00",
+    "scene0568_02",
+    "scene0084_01"
+  ],
+  "frames_per_scene": 300,
+  "point_source": "/home/jovyan/users/kolodiazhnyi/data/scannet/points",
+  "posed_images_source": "/home/jovyan/users/kolodiazhnyi/data/scannet/posed_images",
+  "cad_source": "/home/jovyan/users/koodiazhnyi/Scan2CAD/data/shapenet",
+  "annotation_source": "/home/jovyan/users/koodiazhnyi/Scan2CAD/data/scan2cad/full_annotations.json",
+  "selection_method": "Keep the four previously randomly selected scenes with exactly 300 complete posed_images triplets; replace the 245-frame scene by sampling without replacement from the remaining original candidates until one has exactly 300 triplets and points.",
+  "original_random_seed": 11040503903302448604,
+  "replacement_random_seed": 15826835358243040972,
+  "replacement_candidates_tested": [
+    {
+      "scene": "scene0084_01",
+      "accepted": true
+    }
+  ],
+  "original_export_directory": "/home/jovyan/users/koodiazhnyi/Scan2CAD/data/exports/scannet5_20261019_180937",
+  "source_rule": "Only source posed_images and points are used for scene RGB-D, camera poses, intrinsic.txt and scan geometry; no .sens data."
+}
