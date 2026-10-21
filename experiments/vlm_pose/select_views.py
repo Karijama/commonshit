@@ -191,7 +191,8 @@ def run_scene(root, scene_id, output, args):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[2])
+    parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[2] / "scannet5",
+                        help="scannet5 dataset directory containing manifest.json")
     parser.add_argument("--output", type=Path, default=Path(__file__).parent / "results")
     parser.add_argument("--scenes", nargs="+", default=["scene0084_01"])
     parser.add_argument("--views", type=int, choices=[2, 3], default=3)

@@ -48,7 +48,8 @@ def metrics(vertices, prediction, gt):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--root', type=Path, default=Path(__file__).resolve().parents[2])
+    parser.add_argument('--root', type=Path, default=Path(__file__).resolve().parents[2] / 'scannet5',
+                        help='scannet5 dataset directory containing manifest.json')
     parser.add_argument('--prediction', type=Path, required=True)
     parser.add_argument('--ground-truth', type=Path, required=True)
     parser.add_argument('--output', type=Path, required=True)
